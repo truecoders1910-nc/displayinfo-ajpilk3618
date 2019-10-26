@@ -15,9 +15,11 @@ namespace DisplayInfo
             // Get their favorite number
             Console.WriteLine($"Hello {Firstname} {Lastname}, please enter your favorite number.");
             string Favenum = Console.ReadLine();
-            int FavenumValue = Convert.ToInt32(Favenum); 
-           
+            int FavenumValue = Convert.ToInt32(Favenum);
+
             // Get their favorite animal
+            Console.WriteLine("Please enter your favorite animal.");
+            string FaveAnimal = Console.ReadLine();
 
 
             // Once you have gotten all their info and stored it,
